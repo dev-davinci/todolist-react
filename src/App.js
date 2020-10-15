@@ -1,9 +1,9 @@
 import React from "react";
 
-import styles from "./App.module.css";
+import styles from "./App.css";
 
 const App = () => {
-  return <div>hello</div>;
+  return <div className="red">hello</div>;
 };
 
 export default App;
